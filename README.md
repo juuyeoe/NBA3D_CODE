@@ -1,7 +1,7 @@
 # NBA3D: Neighbor-Based Confdence Adjustment for 3D Rare Object Detection Using LiDAR (AAAI2025)
 Jooyoung Lee, Jaeyoon Lee, Jongwon Choi*
 ## Abstract
-Recent research on LiDAR-based 3D object detectors has
+> Recent research on LiDAR-based 3D object detectors has
 shown strong performance; however, evaluations typically focus on dominant classes, overlooking rare classes, such as
 strollers, which could be critical in real autonomous driving scenarios. This oversight is problematic because stateof-the-art 3D object detectors show signifcantly lower performance on rare classes compared to dominant ones when
 trained on both. To address this issue and achieve accurate 3D
@@ -18,6 +18,7 @@ of rare class objects, regardless of the type of 3D object detectors used.
 
 
 ## Citation
+```
 @inproceedings{lee2025nba3d,
   title={NBA3D: Neighbor-Based Confidence Adjustment for 3D Rare Object Detection Using LiDAR},
   author={Lee, Jooyoung and Lee, Jaeyoon and Choi, Jongwon},
@@ -27,3 +28,4 @@ of rare class objects, regardless of the type of 3D object detectors used.
   pages={4508--4516},
   year={2025}
 }
+```
